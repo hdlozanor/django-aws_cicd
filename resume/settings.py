@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Custom definition: Define path of source file of static
 # mean that Django will look at the static from static/ directory under your project.
-STATIC_DIR = BASE_DIR / 'static'
+STATIC_DIR = BASE_DIR / 'core/static'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -121,7 +121,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'core/static/'
 STATICFILES_DIRS = [STATIC_DIR]
 
 # Default primary key field type
